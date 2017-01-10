@@ -1,92 +1,47 @@
 
-{
-  "estado": {
-    "codigoEstado": "200",
-    "glosaEstado": "OK"
-  },
-  "datos": {
-    "cliente": {
-      "nombre": "Firstname Lastname",
-      "rut": "RUT",
-      "valorCliente": "",
-      "codCliente": "Firstname Lastname",
-      "codCuenta": "",
-      "cicloFacturacion": "",
-      "contactId": "120463892",
-      "customerID": "120004529",
-      "suscriptionID": "120000686",
-      "estadoMigrado": "migrado"
-    },
-    "balance": {
-      "deuda": {
-        "folioDocNoVencido": "",
-        "montoDocNoVencido": "",
-        "fechaVencimiento": "",
-        "folioDocVencido": "",
-        "montoDocVencido": ""
-      },
-      "saldo": {
-        "ultimaRecarga": "",
-        "saldoActual": [
-          {
-            "saldo": "0.0",
-            "vigencia": "2016-06-27 00:00:00"
-          }
-        ],
-        "Vigente": "true"
-      }
-    },
-    "producto": {
-      "telefono": "56920000013",
-      "numAbonado": "",
-      "tipoAbonado": "movil",
-      "planContratado": "Movil Club Recarga $5000 con bono de $2000",
-      "codigoPlan": "614591",
-      "tipoPlan": "false",
-      "codSituacion": "ACTIVE",
-      "situacionAbonado": "",
-      "tipoPlanDato": "",
-      "tipoContratoDato": "",
-      "listaDatosTematicos": [
-        {
-          "Tematicos": {
-            "nil": "true",
-            "": ""
-          }
-        }
-      ],
-      "detallePlan": [
-        {
-          "nil": "true",
-          "": ""
-        }
-      ],
-      "detalleTarifa": [
-        {
-          "nombrePlan": "",
-          "descripcionPlan": "",
-          "valorMinOnNet": "",
-          "valorMinOffNet": "",
-          "valorSMS": "",
-          "valorMMS": "",
-          "valorIEM": ""
-        }
-      ],
-      "detalleTarifaAmdocs": [
-        {
-          "nombreItem": "Minutos todo destino incluidos",
-          "descripcionItem": "0"
-        },
-        {
-          "nombreItem": "Umbral de Navegación",
-          "descripcionItem": "0"
-        },
-        {
-          "nombreItem": "Saldo Inicial",
-          "descripcionItem": "0"
-        }
-      ],
-      "descripcionPlan": "Movil Club Recarga $5000 con bono de $2000"
-    }
-  }
-}
+      {
+                    "estado":{
+                                "codigoEstado":"200",
+                                "glosaEstado":"OK"
+                    },
+                    "datos":{
+                        "cliente":{
+                                "nombre":"CECILIA GATICA ARIAS",
+                                "rut":"13455364-2",
+                                "valorCliente":"",
+                                "codCliente":"25854217",
+                                "codCuenta":"58215197",
+                                "cicloFacturacion":"13"
+
+                        },
+                        "balance":{
+                                "deuda":{
+                                    "folioDocNoVencido":"0",
+                                    "montoDocNoVencido":"0",
+                                    "fechaVencimiento":"",
+                                    "folioDocVencido":"",
+                                    "montoDocVencido":""
+                                    },
+                                "saldo":{
+                                    "ultimaRecarga":"NO",
+                                    "saldoActual":"NO",
+                                    "Vigente":"false"
+                                    }
+                        }, 
+                        "producto":{
+                                "telefono":"56991996822",
+                                "numAbonado":"58215197",
+                                "tipoAbonado":"Contrato",
+                                "planContratado":"4G - ASIGNACION INTERNA 2000",
+                                "codigoPlan":"QCV",
+                                "tipoPlan":"Individual",         
+                                "codSituacion":"AAA",
+                                "situacionAbonado":"",
+                                "tipoPlanDato":"MULTIMEDIA",         
+                                "tipoContratoDato":"2",
+                                "listaDatosTematicos":[{"Tematicos":{"nil":"true","":""}}],
+                                "detallePlan":[{"codFamProducto":1,"codUnidad":"","descFamProducto":"Cargo Fijo","unidadesDisponibles":0,"valorProducto":0,"valorUnidad":0,"tematico":0},{"codFamProducto":3,"codUnidad":"Min","descFamProducto":"Minutos Todo Destino","unidadesDisponibles":"2000:00","valorProducto":0,"valorUnidad":0,"tematico":0},{"codFamProducto":39,"codUnidad":"Min","descFamProducto":"Minutos Adic. Todo Destino","unidadesDisponibles":"0:00","valorProducto":0,"valorUnidad":29.75238,"tematico":0}],
+                                "detalleTarifa":[{"nombrePlan": "", "descripcionPlan": "", "valorMinOnNet": "", "valorMinOffNet": "", "valorSMS": "", "valorMMS": "", "valorIEM": ""}]
+                        }
+                    }
+     }     
