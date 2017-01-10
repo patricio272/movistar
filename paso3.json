@@ -1,47 +1,52 @@
 {
-  "access_token": "TwajnHAmA2Sk4YXqYNe5A3iVBnCh",
-  "refresh_token": "VMQva1hS622IkUOS3jqJ60nr2tx6XGO9",
+  "access_token": "iFfTORw5bsmCCtGeak2y4MfUtt5O",
+  "refresh_token": "hFrjcPvTt0sW4syCCy4ZO5ZA3ul3b75B",
   "expires_in": "3599",
   "scope": "",
-  "developer_app": "miMovistar-Prod",
-  "responseBknd": {
+  "developer_app": "miMovistar_Test",
+  "mcsstoken": "UXF_SessionToken:IJgtiGEGWK00GsPkR/rgZA==___currentencryptionkey___bjMn0ecQnF3/lYTTw7+9XbpHRR99fbfNXu1nLdVvJ9KmKpqWm7AX/59HAnv3xF5/aLjDdYt7FTMrmfVRXB/FD7rpOc0kH9qdWifhUjLcqVC6N7JB0cFQAEUsWPxs0FR8Ocm2PutJfNGzbAsDwSg1Tw==",
+  "dv": "",
+  "rut": "",
+  "responsePayload": {
     "token": {
-      "codError": "0",
-      "codDesc": "OK",
+      "codError": "",
+      "codDesc": "",
       "cliente": {
         "id": {
-          "rut": "0",
-          "dv": "0"
+          "rut": "",
+          "dv": ""
         },
-        "nombre": "GENERICO",
-        "apellido_paterno": "GENERICO",
-        "apellido_materno": "GENERICO",
-        "segmento": "0",
+        "nombre": "Firstname Lastname",
+        "apellido_paterno": "",
+        "apellido_materno": "",
+        "segmento": "",
         "contacto": {
-          "mail": "prepago@prepago.telefonica.com",
-          "sms": "997477879",
-          "preferido": "1"
+          "mail": "DJain@Amdocs.com",
+          "sms": "56222222222",
+          "preferido": ""
         },
         "productos": {
           "producto": [
             {
-              "id": "997477879",
+              "id": "",
               "tipo": "MOVIL",
               "rol": "TITULAR",
               "seleccion": "true",
               "preferido": "true",
-              "idclie": "00000000",
-              "idcuen": "00000000",
-              "rut_titular": "0-0",
+              "idclie": "120004529",
+              "idcuen": "120000686",
+              "rut_titular": "",
               "codsegmento": "",
-              "codcategoria": "0",
+              "codcategoria": "5",
               "tipocontrato": "0",
               "vigente-desde": "",
               "cod_sub_seg": "",
-              "desc_sub_seg": "NO DISPONIBLE",
+              "desc_sub_seg": "ALTO VALOR",
               "permiso": {
                 "perfil": "1-0;"
-              }
+              },
+              "estadomigrado": "migrado",
+              "id contacto": "120004529"
             }
           ]
         }
