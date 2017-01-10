@@ -1,0 +1,51 @@
+{
+  "access_token": "TwajnHAmA2Sk4YXqYNe5A3iVBnCh",
+  "refresh_token": "VMQva1hS622IkUOS3jqJ60nr2tx6XGO9",
+  "expires_in": "3599",
+  "scope": "",
+  "developer_app": "miMovistar-Prod",
+  "responseBknd": {
+    "token": {
+      "codError": "0",
+      "codDesc": "OK",
+      "cliente": {
+        "id": {
+          "rut": "0",
+          "dv": "0"
+        },
+        "nombre": "GENERICO",
+        "apellido_paterno": "GENERICO",
+        "apellido_materno": "GENERICO",
+        "segmento": "0",
+        "contacto": {
+          "mail": "prepago@prepago.telefonica.com",
+          "sms": "997477879",
+          "preferido": "1"
+        },
+        "productos": {
+          "producto": [
+            {
+              "id": "997477879",
+              "tipo": "MOVIL",
+              "rol": "TITULAR",
+              "seleccion": "true",
+              "preferido": "true",
+              "idclie": "00000000",
+              "idcuen": "00000000",
+              "rut_titular": "0-0",
+              "codsegmento": "",
+              "codcategoria": "0",
+              "tipocontrato": "0",
+              "vigente-desde": "",
+              "cod_sub_seg": "",
+              "desc_sub_seg": "NO DISPONIBLE",
+              "permiso": {
+                "perfil": "1-0;"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
