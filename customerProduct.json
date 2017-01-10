@@ -1,0 +1,92 @@
+
+{
+  "estado": {
+    "codigoEstado": "200",
+    "glosaEstado": "OK"
+  },
+  "datos": {
+    "cliente": {
+      "nombre": "Firstname Lastname",
+      "rut": "RUT",
+      "valorCliente": "",
+      "codCliente": "Firstname Lastname",
+      "codCuenta": "",
+      "cicloFacturacion": "",
+      "contactId": "120463892",
+      "customerID": "120004529",
+      "suscriptionID": "120000686",
+      "estadoMigrado": "migrado"
+    },
+    "balance": {
+      "deuda": {
+        "folioDocNoVencido": "",
+        "montoDocNoVencido": "",
+        "fechaVencimiento": "",
+        "folioDocVencido": "",
+        "montoDocVencido": ""
+      },
+      "saldo": {
+        "ultimaRecarga": "",
+        "saldoActual": [
+          {
+            "saldo": "0.0",
+            "vigencia": "2016-06-27 00:00:00"
+          }
+        ],
+        "Vigente": "true"
+      }
+    },
+    "producto": {
+      "telefono": "56920000013",
+      "numAbonado": "",
+      "tipoAbonado": "movil",
+      "planContratado": "Movil Club Recarga $5000 con bono de $2000",
+      "codigoPlan": "614591",
+      "tipoPlan": "false",
+      "codSituacion": "ACTIVE",
+      "situacionAbonado": "",
+      "tipoPlanDato": "",
+      "tipoContratoDato": "",
+      "listaDatosTematicos": [
+        {
+          "Tematicos": {
+            "nil": "true",
+            "": ""
+          }
+        }
+      ],
+      "detallePlan": [
+        {
+          "nil": "true",
+          "": ""
+        }
+      ],
+      "detalleTarifa": [
+        {
+          "nombrePlan": "",
+          "descripcionPlan": "",
+          "valorMinOnNet": "",
+          "valorMinOffNet": "",
+          "valorSMS": "",
+          "valorMMS": "",
+          "valorIEM": ""
+        }
+      ],
+      "detalleTarifaAmdocs": [
+        {
+          "nombreItem": "Minutos todo destino incluidos",
+          "descripcionItem": "0"
+        },
+        {
+          "nombreItem": "Umbral de Navegación",
+          "descripcionItem": "0"
+        },
+        {
+          "nombreItem": "Saldo Inicial",
+          "descripcionItem": "0"
+        }
+      ],
+      "descripcionPlan": "Movil Club Recarga $5000 con bono de $2000"
+    }
+  }
+}
